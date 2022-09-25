@@ -19,5 +19,6 @@ const addBooks = () => {
     <p id="title">${data.title}</p>
     <p id="author">${data.author}</p>
     <button onclick=class="removeButton">Remove</button>
-    </li>`).join('');
+    </li>`).join(' ');
 };
+
